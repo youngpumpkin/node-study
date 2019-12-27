@@ -9,6 +9,6 @@ let app = http.createServer((req, res) => {
     res.end('Hello World!\n');
 });
 
-// Start the server on port 3000
-app.listen(4200, '127.0.0.1');
+// Start the server on port 4200
+app.listen(4200);
 console.log('Node server running on port 4200');
